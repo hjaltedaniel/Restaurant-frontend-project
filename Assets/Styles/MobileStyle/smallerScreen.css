@@ -1,0 +1,95 @@
+@media (max-width: 768px) {
+  /* line 7, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .container {
+    display: block;
+    width: 100%;
+    height: auto; }
+  /* line 12, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  header {
+    background-position: center; }
+  /* line 15, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .main-menu {
+    display: block; }
+  /* line 18, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .logo {
+    text-align: center;
+    display: fixed;
+    margin-bottom: 20px;
+    padding-left: 20px; }
+  /* line 24, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  ul.menu-list {
+    display: block;
+    padding: none;
+    padding-top: 10px;
+    text-align: center; }
+  /* line 30, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  ul.some-list {
+    justify-content: center; }
+  /* line 33, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .menu-list a {
+    padding: 0; }
+  /* line 36, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  #mobile-menu {
+    position: fixed;
+    display: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); }
+  /* line 42, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .openMenu {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    margin-right: -3000px !important;
+    padding-right: 3000px !important;
+    margin-left: -3000px !important;
+    padding-left: 3000px !important; }
+  /* line 49, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .img {
+    display: none; }
+  /* line 52, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .top h1 {
+    font-size: 50px; }
+  /* line 55, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .desc {
+    width: 90%;
+    margin: 0 auto 0 auto; }
+  /* line 59, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  #introduction {
+    height: auto;
+    padding-bottom: 50px; }
+  /* line 63, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  #ingredients {
+    height: auto; }
+  /* line 66, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .box {
+    width: auto;
+    margin: 30px; }
+  /* line 70, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .ingredients-images {
+    display: none; }
+  /* line 73, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .menu-container {
+    width: 90%; }
+  /* line 76, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .reviews {
+    height: auto;
+    background-position: center; }
+  /* line 80, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .contact {
+    height: auto; }
+  /* line 83, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  footer {
+    height: auto; }
+  /* line 86, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  .footer-col {
+    width: 90%;
+    margin: 0 auto 0 auto; }
+  /* line 90, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  blockquote {
+    font-size: 17px;
+    line-height: 2; } }
+
+@media (min-width: 768px) {
+  /* line 97, /Users/hjadh/Desktop/frontend/Assets/Styles/MobileStyle/smallerScreen.scss */
+  #slicknav {
+    display: none; } }
+
+/*# sourceMappingURL=smallerScreen.css.map */

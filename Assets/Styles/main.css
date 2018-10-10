@@ -1,0 +1,633 @@
+/* line 1, /Users/hjadh/Desktop/frontend/Assets/Styles/_slicknav.scss */
+#slicknav {
+  width: 60px;
+  z-index: 100;
+  height: 45px;
+  position: absolute;
+  margin: 40px 80%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer; }
+
+/* line 17, /Users/hjadh/Desktop/frontend/Assets/Styles/_slicknav.scss */
+#slicknav span {
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+
+/* line 35, /Users/hjadh/Desktop/frontend/Assets/Styles/_slicknav.scss */
+#slicknav span:nth-child(1) {
+  top: 0px; }
+
+/* line 38, /Users/hjadh/Desktop/frontend/Assets/Styles/_slicknav.scss */
+#slicknav span:nth-child(2),
+#slicknav span:nth-child(3) {
+  top: 18px; }
+
+/* line 42, /Users/hjadh/Desktop/frontend/Assets/Styles/_slicknav.scss */
+#slicknav span:nth-child(4) {
+  top: 36px; }
+
+/* line 45, /Users/hjadh/Desktop/frontend/Assets/Styles/_slicknav.scss */
+#slicknav.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%; }
+
+/* line 50, /Users/hjadh/Desktop/frontend/Assets/Styles/_slicknav.scss */
+#slicknav.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 56, /Users/hjadh/Desktop/frontend/Assets/Styles/_slicknav.scss */
+#slicknav.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/* line 62, /Users/hjadh/Desktop/frontend/Assets/Styles/_slicknav.scss */
+#slicknav.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%; }
+
+/* line 4, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+body {
+  margin: 0; }
+
+/* line 7, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #4c4c4c; }
+
+/* line 13, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+a {
+  font-family: 'Lato', sans-serif; }
+
+/* line 16, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+h1,
+h2,
+h3 {
+  font-family: 'Yeseva One', cursive; }
+
+/* line 21, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+h1 {
+  color: #dab33e;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: normal; }
+
+/* line 28, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+h2 {
+  font-size: 17px; }
+
+/* line 31, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.bold {
+  font-weight: bold; }
+
+/* line 34, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.box {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center; }
+
+/* line 38, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.divider {
+  height: 24px;
+  width: 247px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 45, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.divider.light {
+  background-image: url(../Img/divider.png); }
+
+/* line 48, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.divider.dark {
+  background-image: url(../Img/Divider_light.png); }
+
+/* line 51, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden; }
+
+/* line 57, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.btn {
+  border: solid 1px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+  margin: 0px 20px 0px 20px; }
+
+/* line 66, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.btn a {
+  text-decoration: none;
+  color: #fff; }
+
+/* line 70, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.btn.light {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: #fff; }
+
+/* line 74, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.btn.black {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-color: #191919; }
+
+/* line 78, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.btn.light:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: #fff; }
+
+/* line 82, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.btn.black:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: #191919; }
+
+/* line 87, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+header {
+  background-image: url(../Img/bg-header.jpg);
+  background-size: cover;
+  height: 700px; }
+
+/* line 93, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.logo {
+  filter: invert(100);
+  padding-top: 10px; }
+
+/* line 98, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.main-menu {
+  display: flex;
+  z-index: 1; }
+
+/* line 102, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+ul.some-list,
+ul.menu-list {
+  display: flex; }
+
+/* line 106, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+ul.menu-list {
+  margin-left: auto; }
+
+/* line 109, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.some-list li,
+.menu-list li {
+  list-style: none;
+  margin-top: 30px; }
+
+/* line 114, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.some-list a,
+.menu-list a {
+  text-decoration: none; }
+
+/* line 118, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.menu-list a {
+  color: #fff;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 44px 40px 0px 40px; }
+
+/* line 124, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.menu-list li:last-of-type {
+  padding-left: 10px; }
+
+/* line 127, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.menu-list a:active,
+.menu-list a:hover {
+  border-top: 2px solid;
+  border-color: #fff; }
+
+/* line 132, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.some-list a {
+  color: #dab33e;
+  padding: 10px; }
+
+/* line 136, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.some-list a:hover {
+  color: #95771d;
+  transition-duration: 10; }
+
+/* line 141, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.top h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 75px;
+  text-shadow: 1px 1px 2px #191919; }
+
+/* line 147, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px; }
+
+/* line 153, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+#introduction {
+  background-image: url(../Img/pattern1_bg.png);
+  background-repeat: repeat-y;
+  height: 1000px; }
+
+/* line 158, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+#introduction {
+  height: 700px; }
+
+/* line 161, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  height: 700px; }
+
+/* line 168, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.desc {
+  width: 400px;
+  text-align: center; }
+
+/* line 172, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.introduction-img {
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+/* line 178, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.img {
+  width: 550px; }
+
+/* line 182, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+#ingredients {
+  background-image: url(../Img/ingredients_bg.jpeg);
+  height: 750px; }
+
+/* line 186, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.ingredients-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 750px;
+  align-items: center; }
+
+/* line 192, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.ingredients-box {
+  width: 360px;
+  padding: 70px; }
+
+/* line 196, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.ingredients-box p,
+.ingredients-box h1 {
+  color: #fff; }
+
+/* line 200, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.ingredients-images {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between; }
+
+/* line 206, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Img/pattern2_bg.png);
+  background-size: cover;
+  min-height: 1000px; }
+
+/* line 214, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.menu-container {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between; }
+
+/* line 219, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.menu-item-line {
+  display: flex;
+  justify-content: space-between;
+  color: #dab33e;
+  border-bottom: solid 1px; }
+
+/* line 225, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.special-menu {
+  border: 1px solid #dab33e;
+  margin-top: 20px; }
+
+/* line 229, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.special-menu::before {
+  content: "Special";
+  position: relative;
+  float: right;
+  margin-top: -18px;
+  margin-right: -11px;
+  background-color: #dab33e;
+  color: #fff;
+  padding: 1px 10px 1px 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px; }
+
+/* line 241, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.menu-item {
+  padding: 0px 10px 0px 10px; }
+
+/* line 245, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.reviews {
+  background-image: url(../Img/reviews_bg.jpeg);
+  background-size: cover;
+  height: 750px; }
+
+/* line 250, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.guest-review {
+  margin: 0;
+  width: 520px;
+  margin: 0 auto 0 auto;
+  padding: 70px; }
+
+/* line 256, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.review-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px; }
+
+/* line 262, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+blockquote {
+  color: #fff;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 21px;
+  line-height: 2.5; }
+
+/* line 268, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.guest-review h1 {
+  color: #fff; }
+
+/* line 271, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.guest-review p {
+  color: #fff; }
+
+/* line 275, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.contact {
+  background-image: url(../Img/pattern1_bg.png);
+  background-size: cover;
+  height: 700px; }
+
+/* line 280, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  height: 700px; }
+
+/* line 287, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.contact-form {
+  display: flex;
+  justify-content: center; }
+
+/* line 291, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.contact-col {
+  margin-right: 20px; }
+
+/* line 294, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.form-element {
+  display: flex;
+  flex-direction: column; }
+
+/* line 298, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+form {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #dab33e; }
+
+/* line 305, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+input[type=text],
+input[type=date],
+select {
+  width: 190px;
+  height: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px; }
+
+/* line 320, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+select {
+  padding: 3px;
+  padding-left: 20px;
+  width: 190px;
+  height: 26px;
+  border-radius: 0px;
+  background: #fff;
+  color: ligthen(#4c4c4c, 50);
+  border: 1px solid #cccccc;
+  outline: none;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer; }
+
+/* line 336, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+label[for=party] {
+  position: relative; }
+
+/* line 339, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+label[for=party]:after {
+  content: '>';
+  font: 11px "verdana", monospace;
+  color: #aaa;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  left: 170px;
+  top: 30px;
+  padding: 0 0 2px;
+  position: absolute;
+  pointer-events: none; }
+
+/* line 353, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+input[type=text]:focus,
+input[type=date]:focus,
+select:focus {
+  border: 1px solid #dab33e; }
+
+/* line 358, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+input[type=submit] {
+  width: 50%;
+  background-color: #dab33e;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 23px;
+  margin: 8px auto 8px auto;
+  border: none;
+  cursor: pointer;
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+/* line 373, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+input[type=submit]:hover {
+  background-color: #95771d; }
+
+/* line 377, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+footer {
+  background-color: #191919;
+  height: 320px; }
+
+/* line 381, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+footer h1 {
+  color: #fff;
+  margin-top: 70px;
+  font-size: 20px; }
+
+/* line 386, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+footer p {
+  color: #fff;
+  text-align: center; }
+
+/* line 390, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.footer-col {
+  width: 350px; }
+
+/* line 393, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.footer-container {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between; }
+
+/* line 398, /Users/hjadh/Desktop/frontend/Assets/Styles/main.scss */
+.footer-divider {
+  background-image: url(../Img/footer_divider.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+@media (max-width: 768px) {
+  /* line 7, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .container {
+    display: block;
+    width: 100%;
+    height: auto; }
+  /* line 12, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  header {
+    background-position: center; }
+  /* line 15, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .main-menu {
+    display: block; }
+  /* line 18, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .logo {
+    text-align: center;
+    display: fixed;
+    margin-bottom: 20px;
+    padding-left: 20px; }
+  /* line 24, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  ul.menu-list {
+    display: block;
+    padding: none;
+    padding-top: 10px;
+    text-align: center; }
+  /* line 30, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  ul.some-list {
+    justify-content: center; }
+  /* line 33, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .menu-list a {
+    padding: 0; }
+  /* line 36, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  #mobile-menu {
+    position: fixed;
+    display: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); }
+  /* line 42, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .openMenu {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    margin-right: -3000px !important;
+    padding-right: 3000px !important;
+    margin-left: -3000px !important;
+    padding-left: 3000px !important; }
+  /* line 49, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .img {
+    display: none; }
+  /* line 52, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .top h1 {
+    font-size: 50px; }
+  /* line 55, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .desc {
+    width: 90%;
+    margin: 0 auto 0 auto; }
+  /* line 59, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  #introduction {
+    height: auto;
+    padding-bottom: 50px; }
+  /* line 63, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  #ingredients {
+    height: auto; }
+  /* line 66, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .box {
+    width: auto;
+    margin: 30px; }
+  /* line 70, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .ingredients-images {
+    display: none; }
+  /* line 73, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .menu-container {
+    width: 90%; }
+  /* line 76, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .reviews {
+    height: auto;
+    background-position: center; }
+  /* line 80, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .contact {
+    height: auto; }
+  /* line 83, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  footer {
+    height: auto; }
+  /* line 86, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  .footer-col {
+    width: 90%;
+    margin: 0 auto 0 auto; }
+  /* line 90, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  blockquote {
+    font-size: 17px;
+    line-height: 2; } }
+
+@media (min-width: 768px) {
+  /* line 97, /Users/hjadh/Desktop/frontend/Assets/Styles/_smallerScreen.scss */
+  #slicknav {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */

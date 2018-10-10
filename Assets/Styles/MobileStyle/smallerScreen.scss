@@ -1,0 +1,102 @@
+    // Extra small devices (portrait phones, less than 576px)
+    @media (max-width: 576px) {}
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {}
+    // Medium devices (tablets, 768px and up)
+    @media (max-width: 768px) {
+        .container {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        header {
+            background-position: center;
+        }
+        .main-menu {
+            display: block;
+        }
+        .logo {
+            text-align: center;
+            display: fixed;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        ul.menu-list {
+            display: block;
+            padding: none;
+            padding-top: 10px;
+            text-align: center;
+        }
+        ul.some-list {
+            justify-content: center;
+        }
+        .menu-list a {
+            padding: 0;
+        }
+        #mobile-menu {
+            position: fixed;
+            display: none;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .openMenu {
+            background-color: rgba(0, 0, 0, 0.7) !important;
+            margin-right: -3000px !important;
+            padding-right: 3000px !important;
+            margin-left: -3000px !important;
+            padding-left: 3000px !important;
+        }
+        .img {
+            display: none;
+        }
+        .top h1 {
+            font-size: 50px;
+        }
+        .desc {
+            width: 90%;
+            margin: 0 auto 0 auto;
+        }
+        #introduction {
+            height: auto;
+            padding-bottom: 50px;
+        }
+        #ingredients {
+            height: auto;
+        }
+        .box {
+            width: auto;
+            margin: 30px;
+        }
+        .ingredients-images {
+            display: none;
+        }
+        .menu-container {
+            width: 90%;
+        }
+        .reviews {
+            height: auto;
+            background-position: center;
+        }
+        .contact {
+            height: auto;
+        }
+        footer {
+            height: auto;
+        }
+        .footer-col {
+            width: 90%;
+            margin: 0 auto 0 auto;
+        }
+        blockquote {
+            font-size: 17px;
+            line-height: 2;
+        }
+    }
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 768px) {
+        #slicknav {
+            display: none;
+        }
+    }
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {}

@@ -1,0 +1,403 @@
+@import "vars";
+@import "slicknav";
+//Standard stuff
+body {
+    margin: 0;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: $themeGrey;
+}
+a {
+    font-family: 'Lato', sans-serif;
+}
+h1,
+h2,
+h3 {
+    font-family: 'Yeseva One', cursive;
+}
+h1 {
+    color: $themeYellow;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+h2 {
+    font-size: 17px;
+}
+.bold {
+    font-weight: bold;
+}
+.box {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.divider {
+    height: 24px;
+    width: 247px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divider.light {
+    background-image: url(../Img/divider.png);
+}
+.divider.dark {
+    background-image: url(../Img/Divider_light.png);
+}
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.btn {
+    border: solid 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    margin: 0px 20px 0px 20px;
+}
+.btn a {
+    text-decoration: none;
+    color: $themeWhite;
+}
+.btn.light {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: $themeWhite;
+}
+.btn.black {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: $themeBlack;
+}
+.btn.light:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: $themeWhite;
+}
+.btn.black:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: $themeBlack;
+}
+//Header section
+header {
+    background-image: url(../Img/bg-header.jpg);
+    background-size: cover;
+    height: 700px;
+}
+//Main logo
+.logo {
+    filter: invert(100);
+    padding-top: 10px;
+}
+//Main menu and SomeIcons
+.main-menu {
+    display: flex;
+    z-index: 1;
+}
+ul.some-list,
+ul.menu-list {
+    display: flex;
+}
+ul.menu-list {
+    margin-left: auto;
+}
+.some-list li,
+.menu-list li {
+    list-style: none;
+    margin-top: 30px;
+}
+.some-list a,
+.menu-list a {
+    text-decoration: none;
+}
+.menu-list a {
+    color: $themeWhite;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 44px 40px 0px 40px;
+}
+.menu-list li:last-of-type {
+    padding-left: 10px;
+}
+.menu-list a:active,
+.menu-list a:hover {
+    border-top: 2px solid;
+    border-color: $themeWhite;
+}
+.some-list a {
+    color: $themeYellow;
+    padding: 10px;
+}
+.some-list a:hover {
+    color: darken($themeYellow, 20);
+    transition-duration: 10;
+}
+//Top section
+.top h1 {
+    color: $themeWhite;
+    text-align: center;
+    font-size: 75px;
+    text-shadow: 1px 1px 2px $themeBlack;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+//Introduction section
+#introduction {
+    background-image: url(../Img/pattern1_bg.png);
+    background-repeat: repeat-y;
+    height: 1000px;
+}
+#introduction {
+    height: 700px;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    height: 700px;
+}
+.desc {
+    width: 400px;
+    text-align: center;
+}
+.introduction-img {
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.img {
+    width: 550px;
+}
+//Ingredients section
+#ingredients {
+    background-image: url(../Img/ingredients_bg.jpeg);
+    height: 750px;
+}
+.ingredients-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 750px;
+    align-items: center;
+}
+.ingredients-box {
+    width: 360px;
+    padding: 70px;
+}
+.ingredients-box p,
+.ingredients-box h1 {
+    color: $themeWhite;
+}
+.ingredients-images {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+//Menu section
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Img/pattern2_bg.png);
+    background-size: cover;
+    min-height: 1000px;
+}
+.menu-container {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+.menu-item-line {
+    display: flex;
+    justify-content: space-between;
+    color: $themeYellow;
+    border-bottom: solid 1px;
+}
+.special-menu {
+    border: 1px solid $themeYellow;
+    margin-top: 20px;
+}
+.special-menu::before {
+    content: "Special";
+    position: relative;
+    float: right;
+    margin-top: -18px;
+    margin-right: -11px;
+    background-color: $themeYellow;
+    color: $themeWhite;
+    padding: 1px 10px 1px 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+.menu-item {
+    padding: 0px 10px 0px 10px;
+}
+//Revsiews
+.reviews {
+    background-image: url(../Img/reviews_bg.jpeg);
+    background-size: cover;
+    height: 750px;
+}
+.guest-review {
+    margin: 0;
+    width: 520px;
+    margin: 0 auto 0 auto;
+    padding: 70px;
+}
+.review-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+blockquote {
+    color: $themeWhite;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 21px;
+    line-height: 2.5;
+}
+.guest-review h1 {
+    color: $themeWhite;
+}
+.guest-review p {
+    color: $themeWhite;
+}
+//Contact
+.contact {
+    background-image: url(../Img/pattern1_bg.png);
+    background-size: cover;
+    height: 700px;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    height: 700px;
+}
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+.contact-col {
+    margin-right: 20px;
+}
+.form-element {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: $themeYellow
+}
+input[type=text],
+input[type=date],
+select {
+    width: 190px;
+    height: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lighten($themeGrey, 50);
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+}
+select {
+    padding: 3px;
+    padding-left: 20px;
+    width: 190px;
+    height: 26px;
+    border-radius: 0px;
+    background: #fff;
+    color: ligthen($themeGrey, 50);
+    border: 1px solid lighten($themeGrey, 50);
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+label[for=party] {
+    position: relative
+}
+label[for=party]:after {
+    content: '>';
+    font: 11px "verdana", monospace;
+    color: #aaa;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    left: 170px;
+    top: 30px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+}
+input[type=text]:focus,
+input[type=date]:focus,
+select:focus {
+    border: 1px solid $themeYellow;
+}
+input[type=submit] {
+    width: 50%;
+    background-color: $themeYellow;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 23px;
+    margin: 8px auto 8px auto;
+    border: none;
+    cursor: pointer;
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type=submit]:hover {
+    background-color: darken($themeYellow, 20);
+}
+//Footer
+footer {
+    background-color: $themeBlack;
+    height: 320px;
+}
+footer h1 {
+    color: $themeWhite;
+    margin-top: 70px;
+    font-size: 20px;
+}
+footer p {
+    color: $themeWhite;
+    text-align: center;
+}
+.footer-col {
+    width: 350px;
+}
+.footer-container {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+.footer-divider {
+    background-image: url(../Img/footer_divider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@import "smallerScreen.scss";
